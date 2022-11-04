@@ -1,0 +1,8 @@
+[package]
+name = "propositional-logic"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.48.0"
+path = "src"
+
+[dependencies]
+mathlib = { git = "https://github.com/leanprover-community/mathlib", rev = "8315f58ea7ded4917347d7bad0939f6081e5256b" }

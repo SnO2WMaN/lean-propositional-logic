@@ -1,0 +1,15 @@
+{
+    "name": "mathlib",
+    "image": "leanprovercommunity/mathlib:debian",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "files.exclude": {
+            "**/*.olean": true
+        }
+    },
+    "extensions": [
+        "jroesch.lean",
+        "tamasfe.even-better-toml"
+    ],
+    "remoteUser": "lean",
+}
